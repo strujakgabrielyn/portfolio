@@ -1,0 +1,41 @@
+html, body {
+  padding: 0 50px;
+  background-color: #1f1f1f;
+  color: #ffff;
+}
+.nav-link:hover{
+  color:#1a5c55;
+}
+.height-100 {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  visibility: hidden;
+}
+.btn-animation:hover {
+  filter: invert(73%) sepia(100%) saturate(304%) hue-rotate(113deg) brightness(91%) contrast(93%);
+}
+.bg-color {
+  background-color: #1a5c55;
+}
+
+/*------------------Título Holográfico----------------*/
+@keyframes animationgradienttitle {
+  0% {
+    background-position: 0 1600px;
+  }
+  100% {
+    background-position: 1600px 0;
+  }
+}
+.title {
+  font-weight: 700;
+  color: #ffff;
+  background: -webkit-linear-gradient(left, #ffff, #84cfc8, #3d8a82,#1a5c55);
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
