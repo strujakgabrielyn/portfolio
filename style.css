@@ -17,6 +17,11 @@ html, body {
 .bg-color {
   background-color: #1a5c55;
 }
+.imagem-projeto{
+  width: 500px;
+  border: solid white 1px;
+  border-radius: 10px;
+}
 
 /*------------------Título Holográfico----------------*/
 @keyframes animationgradienttitle {
