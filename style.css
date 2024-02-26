@@ -44,3 +44,9 @@ html, body {
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
